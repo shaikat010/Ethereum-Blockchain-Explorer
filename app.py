@@ -4,7 +4,7 @@ from web3 import Web3
 app = Flask(__name__)
 
 # Connect to your Ethereum node or an Ethereum provider like Infura
-web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/3beb35814f274c01996224de0c825f95'))
+web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/YOURAPIKEYHERE'))
 
 
 def get_latest_block():
